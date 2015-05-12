@@ -1,0 +1,12 @@
+name             'tomcat_server'
+maintainer       'The Authors'
+maintainer_email 'you@example.com'
+license          'all_rights'
+description      'Installs/Configures tomcat_server'
+long_description 'Installs/Configures tomcat_server'
+version          '0.1.0'
+
+depends 'apt', '~> 2.6.1'
+depends 'java', '~> 1.31.0'
+depends 'tomcat', '~> 0.17.3'
+depends 'maven', '~> 1.3.0'
